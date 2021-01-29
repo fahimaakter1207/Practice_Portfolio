@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Start hero section */
+section{
+    height: 500px;
+}
+
+.hero-section{
+    background-image: url('top-banner.png');
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+}
+p{
+    color:#696969;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.half-width span{
+    color: #FFA500;
+}
+.anchor-button{
+    text-decoration: none;
+    background:linear-gradient(90deg,#da6750be, #ec3a03d0);
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 36px;
+    border-radius: 8px;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.about-section{
+    background-image: url('dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-section{
+    background-image: url('exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#exp{
+    text-align: center;
+    margin-top: 410px;
+}
+.experience-section h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.experience-section h3{
+    color: #ffa500;
+}
+.experience-section div{
+    box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.568);
+    height: 75%;
+    background-color: white;
+    padding: 0 20px:
+}
+.experience-section div:hover{
+    box-shadow: 5px 5px 30px rgba(19, 131, 88, 0.568);
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#front-end{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    margin-top: 30px;
+}
